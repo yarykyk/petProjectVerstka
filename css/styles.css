@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -75,21 +76,121 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-* #MainPage #firstImageCoffe {
+* #MainPage #firstLineImageCoffe {
   width: 1168px;
   height: 385px;
   background-color: #FAF3E0;
   border-radius: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
-* #MainPage #firstImageCoffe .coffedefenition #explainedCoffePic {
-  align-self: center;
+* #MainPage #firstLineImageCoffe .coffedefenition {
+  display: flex;
+}
+* #MainPage #firstLineImageCoffe .coffedefenition img {
   border-radius: 10px;
-  width: 500px;
-  height: 325px;
+  width: 550px;
+  height: 345px;
 }
-* #MainPage #firstImageCoffe .coffedefenition #textfirstImageCoffe {
+* #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+  width: 470px;
   text-align: center;
-  flex-wrap: nowrap;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+* #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+  font-size: 30px;
+}
+* #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 18px;
+  color: #292929;
+}
+* #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+  width: 230px;
+  height: 50px;
+  align-self: center;
+  border: 1px solid #4E9DD3;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #FAF3E0;
+}
+* #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button:hover {
+  background-color: #f4e6c3;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+* #MainPage #secondLineImages {
+  display: flex;
+  width: 1168px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+* #MainPage #secondLineImages .secondLineImgs {
+  width: 359px;
+  height: 311px;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+* #MainPage #secondLineImages .secondLineImgs img {
+  border-radius: 5px;
+}
+* #MainPage #secondLineImages .secondLineImgs p {
+  color: #fff;
+}
+* #MainPage #secondLineImages div:nth-child(1) {
+  background-color: #A67B5B;
+}
+* #MainPage #secondLineImages div:nth-child(2) {
+  background-color: #8B5A2B;
+}
+* #MainPage #secondLineImages div:nth-child(3) {
+  background-color: #C69C6D;
+}
+* #MainPage #DoYouWantToTaste {
+  font-size: 30px;
+  margin-top: 70px;
+}
+* #MainPage #TasteOurCombo {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #292929;
+}
+* #MainPage #ThirdLineCombos {
+  display: flex;
+  width: 1168px;
+  justify-content: space-between;
+}
+* #MainPage #ThirdLineCombos .offers {
+  margin-top: 50px;
+  width: 271px;
+  height: 413px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Рівномірний розподіл */
+}
+* #MainPage #ThirdLineCombos .offers img {
+  width: 271px;
+  height: 220px;
+  border-radius: 5px;
+}
+* #MainPage #ThirdLineCombos .offers h4 {
+  padding: 15px 0 7px 0;
+}
+* #MainPage #ThirdLineCombos .offers p {
+  color: #292929;
+}
+* #MainPage #ThirdLineCombos .offers hr {
+  margin-top: 50px;
+  width: 20%; /* Ширина кожної лінії */
+  height: 2px; /* Товщина лінії */
+  background-color: black; /* Колір */
+  border: none; /* Видаляє стандартну межу */
 }

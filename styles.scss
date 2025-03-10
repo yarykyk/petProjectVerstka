@@ -73,26 +73,124 @@
             padding-top: 50px;
             padding-bottom: 50px;
         }
-        #firstImageCoffe{
+        #firstLineImageCoffe{
             width: 1168px;
             height: 385px;
             background-color:#FAF3E0;
             border-radius: 20px;
             display: flex;
             align-items: center;
+            justify-content: space-evenly;
             .coffedefenition{
-                #explainedCoffePic{
-                    align-self: center;
+                display: flex;
+                img{
                     border-radius: 10px;
-                    width: 500px;
-                    height: 325px;
+                    width: 550px;
+                    height: 345px;
                 }
                 #textfirstImageCoffe{
+                    width: 470px;
                     text-align: center;
-                    flex-wrap: nowrap;
+                    padding-left: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    h2{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-family: 'Proxima Nova Condensed', sans-serif;
+                        font-size: 18px;
+                        color: #292929;
+                    }
+                    button{
+                        width: 230px;
+                        height: 50px;
+                        align-self: center;
+                        border: 1px solid #4E9DD3;
+                        font-weight: 600; 
+                        font-size: 16px;
+                        background-color: #FAF3E0;
+                    }
+                    button:hover{
+                        background-color: #f4e6c3;
+                        position: relative;
+                        top: 3px;
+                        left: 1px;
+                    }
                 }
             }
-
+        }
+        #secondLineImages{
+            display: flex;
+            width: 1168px;
+            margin-top: 50px;
+            justify-content: space-between;
+            .secondLineImgs{
+                width: 359px;
+                height: 311px;
+                align-content: center;
+                text-align: center;
+                border-radius: 10px;
+                img{
+                    border-radius: 5px;
+                }
+                p{
+                    color: #fff;
+                }
+            }
+            div:nth-child(1){
+                background-color:#A67B5B;
+            }
+            div:nth-child(2){
+                background-color: #8B5A2B;
+            }
+            div:nth-child(3){
+                background-color: #C69C6D;
+            }
+            
+        }
+        #DoYouWantToTaste{
+            font-size: 30px;
+            margin-top: 70px;
+        }
+        #TasteOurCombo{
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            font-size: 18px;
+            margin-top: 20px;
+            color: #292929;
+        }
+        #ThirdLineCombos{
+            display: flex;
+            width: 1168px;
+            justify-content: space-between;
+            .offers{
+                margin-top: 50px;
+                width: 271px;
+                height: 413px;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between; /* Рівномірний розподіл */
+                img{
+                    width: 271px;
+                    height: 220px;
+                    border-radius: 5px;
+                }
+                h4{
+                    padding: 15px 0 7px 0;
+                }
+                p{
+                    color: #292929;
+                }
+                hr{
+                    margin-top: 50px;
+                    width: 20%; /* Ширина кожної лінії */
+                    height: 2px; /* Товщина лінії */
+                    background-color: black; /* Колір */
+                    border: none; /* Видаляє стандартну межу */
+                }
+            }
         }
     }
 }
