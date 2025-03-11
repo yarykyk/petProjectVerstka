@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
+    user-select: none;
     #header{
         display: flex;
         flex-direction: column;
@@ -66,7 +67,7 @@
     #MainPage{
         background-color: #F7F7F7;
         display: flex;
-        height: 1770px;
+        height: 1823px;
         flex-direction: column;
         align-items: center;
         #h1mainpage{
@@ -121,6 +122,9 @@
                 }
             }
         }
+        #OurtopDrinks{
+            margin-top: 70px;
+        }
         #secondLineImages{
             display: flex;
             width: 1168px;
@@ -152,7 +156,7 @@
         }
         #DoYouWantToTaste{
             font-size: 30px;
-            margin-top: 70px;
+            margin-top: 110px;
         }
         #TasteOurCombo{
             font-family: 'Proxima Nova Condensed', sans-serif;
@@ -171,25 +175,106 @@
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between; /* Рівномірний розподіл */
+                background-color: #fff;
                 img{
                     width: 271px;
                     height: 220px;
                     border-radius: 5px;
                 }
                 h4{
-                    padding: 15px 0 7px 0;
+                    padding-left: 15px;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
                 }
                 p{
                     color: #292929;
+                    padding-left: 15px;
                 }
-                hr{
-                    margin-top: 50px;
-                    width: 20%; /* Ширина кожної лінії */
-                    height: 2px; /* Товщина лінії */
-                    background-color: black; /* Колір */
-                    border: none; /* Видаляє стандартну межу */
+                #FText{
+                    margin-bottom: 24px;
                 }
+                #SText{
+                    margin-bottom: 3px;
+                }
+                #TText{
+                    margin-bottom: 24px;
+                }
+                #FoText{
+                    margin-bottom: 46px;
+                }
+                .ThLinePriceCart{
+                    display: flex;
+                    height: 49px;
+                    h3{
+                        width: 136px;
+                        align-self: center;
+                        padding-left: 20px;
+                        color: #E7426A;
+                    }
+                    button{
+                        width: 130px;
+                        height: 49px;
+                        align-self: flex-end;
+                        justify-self: center;
+                        border: none;
+                        background-color: #fff;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                    .verticalLine{
+                        width: 1px;
+                        height: 49px;
+                        background-color: gray;
+                    }
+                }
+            }
+        }
+        #AllSets{
+            width: 289px;
+            height: 50px;
+            border: 1px solid #4E9DD3;
+            background-color: #fff;
+            border-radius: 3px;
+            margin-top: 55px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        #AllSets:hover{
+            background-color: #f2ebeb;
+            position: relative;
+            top: 3px;
+            left: 1px;
+        }
+    }
+    #footer{
+        background-color: #EBEDEE;
+        width: 100%;
+        height: 318px;
+        display: flex;
+        justify-content: space-around;
+        color: #292929;
+        p{
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            font-size: 16px;
+            color: #292929;
+            align-self: center;
+        }
+        ul{
+            align-self: center;
+            list-style: none;
+            li{
+                padding: 7px 0;
+            }
+            li:nth-child(1){
+                padding-bottom: 15px;
+            }
+        }
+        div{
+            text-align: right;
+            margin-top: 75px;
+            margin-right: 40px;
+            h3{
+                user-select: text;
             }
         }
     }

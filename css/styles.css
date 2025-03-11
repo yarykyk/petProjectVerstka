@@ -1,9 +1,11 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 * #header {
   display: flex;
@@ -68,7 +70,7 @@
 * #MainPage {
   background-color: #F7F7F7;
   display: flex;
-  height: 1770px;
+  height: 1823px;
   flex-direction: column;
   align-items: center;
 }
@@ -124,6 +126,9 @@
   top: 3px;
   left: 1px;
 }
+* #MainPage #OurtopDrinks {
+  margin-top: 70px;
+}
 * #MainPage #secondLineImages {
   display: flex;
   width: 1168px;
@@ -154,7 +159,7 @@
 }
 * #MainPage #DoYouWantToTaste {
   font-size: 30px;
-  margin-top: 70px;
+  margin-top: 110px;
 }
 * #MainPage #TasteOurCombo {
   font-family: "Proxima Nova Condensed", sans-serif;
@@ -174,7 +179,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Рівномірний розподіл */
+  background-color: #fff;
 }
 * #MainPage #ThirdLineCombos .offers img {
   width: 271px;
@@ -182,15 +187,98 @@
   border-radius: 5px;
 }
 * #MainPage #ThirdLineCombos .offers h4 {
-  padding: 15px 0 7px 0;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 * #MainPage #ThirdLineCombos .offers p {
   color: #292929;
+  padding-left: 15px;
 }
-* #MainPage #ThirdLineCombos .offers hr {
-  margin-top: 50px;
-  width: 20%; /* Ширина кожної лінії */
-  height: 2px; /* Товщина лінії */
-  background-color: black; /* Колір */
-  border: none; /* Видаляє стандартну межу */
+* #MainPage #ThirdLineCombos .offers #FText {
+  margin-bottom: 24px;
+}
+* #MainPage #ThirdLineCombos .offers #SText {
+  margin-bottom: 3px;
+}
+* #MainPage #ThirdLineCombos .offers #TText {
+  margin-bottom: 24px;
+}
+* #MainPage #ThirdLineCombos .offers #FoText {
+  margin-bottom: 46px;
+}
+* #MainPage #ThirdLineCombos .offers .ThLinePriceCart {
+  display: flex;
+  height: 49px;
+}
+* #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+  width: 136px;
+  align-self: center;
+  padding-left: 20px;
+  color: #E7426A;
+}
+* #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+  width: 130px;
+  height: 49px;
+  align-self: flex-end;
+  justify-self: center;
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+* #MainPage #ThirdLineCombos .offers .ThLinePriceCart .verticalLine {
+  width: 1px;
+  height: 49px;
+  background-color: gray;
+}
+* #MainPage #AllSets {
+  width: 289px;
+  height: 50px;
+  border: 1px solid #4E9DD3;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 55px;
+  font-weight: 600;
+  font-size: 14px;
+}
+* #MainPage #AllSets:hover {
+  background-color: #f2ebeb;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+* #footer {
+  background-color: #EBEDEE;
+  width: 100%;
+  height: 318px;
+  display: flex;
+  justify-content: space-around;
+  color: #292929;
+}
+* #footer p {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 16px;
+  color: #292929;
+  align-self: center;
+}
+* #footer ul {
+  align-self: center;
+  list-style: none;
+}
+* #footer ul li {
+  padding: 7px 0;
+}
+* #footer ul li:nth-child(1) {
+  padding-bottom: 15px;
+}
+* #footer div {
+  text-align: right;
+  margin-top: 75px;
+  margin-right: 40px;
+}
+* #footer div h3 {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+          user-select: text;
 }
