@@ -1,0 +1,122 @@
+@media only screen and (max-width: 430px){
+    #header{
+        width: 200%;
+        #topHeader{
+            height: 59px;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 17px;
+        }
+    }
+    #MainPage{
+        width: 200%;
+        #h1mainpage{
+            font-size: 28px;
+        }
+        #firstLineImageCoffe{
+            width: 800px;
+            .coffedefenition{
+                img{
+                    border-radius: 10px;
+                    width: 360px;
+                    height: 300px;
+                }
+                #textfirstImageCoffe{
+                    width: 400px;
+                }
+            }
+        }
+        #OurtopDrinks{
+            margin-top: 40px;
+        }
+        #secondLineImages{
+            margin-top: 20px;
+            width: 760px;
+            margin-right: 25px;
+            display: grid;
+            grid-template-rows: 358px 196px;
+            grid-template-columns: 50% 50%;
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+            .secondLineImgs{
+                // width: 440px;
+                // height: 404px;
+            }
+            p{
+                font-size: 24px;
+            }
+            div:nth-child(1){
+                width: 380px;
+                height: 358px;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                p{
+                    padding-top: 25px;
+                }
+            }
+            div:nth-child(2){
+                width: 380px;
+                height: 358px;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                p{
+                    padding-top: 25px;
+                }
+            }
+            div:nth-child(3){
+                width: 790px;
+                height: 190px;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                img{
+                    height: 140px;
+                    float: left;
+                    margin-left: 60px;
+                }
+                p{
+                    padding-top: 58px;
+                }
+            }
+        }
+        #DoYouWantToTaste{
+            margin-top: 80px;
+        }
+        #ThirdLineCombos{
+            width: 625px;
+            display: grid;
+            grid-template-rows: 465px 380px;
+            grid-template-columns: 300px 300px;
+            .offers{
+
+            }
+        }
+        #AllSets{
+            margin-top: 140px;
+            font-size: 18px;
+        }
+    }
+    #footer{
+        width: 200%;
+        p{
+            width: 200px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                padding: 5px 0;
+            }
+        }
+        div{
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+}
