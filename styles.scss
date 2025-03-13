@@ -65,9 +65,10 @@
         }  
     }
     #MainPage{
+        min-width: 320px;
+        width: 100%;
         background-color: #F7F7F7;
         display: flex;
-        // height: 1823px;
         flex-direction: column;
         align-items: center;
         #h1mainpage{
@@ -75,8 +76,8 @@
             padding-bottom: 50px;
         }
         #firstLineImageCoffe{
-            width: 1168px;
-            height: 385px;
+            width: 150vh;
+            height: 53vh;
             background-color:#FAF3E0;
             border-radius: 20px;
             display: flex;
@@ -126,17 +127,19 @@
             margin-top: 70px;
         }
         #secondLineImages{
-            display: flex;
-            width: 1168px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
             margin-top: 50px;
-            justify-content: space-between;
             .secondLineImgs{
-                width: 359px;
-                height: 311px;
+                width: 47vh;
+                height: 42vh;
                 align-content: center;
                 text-align: center;
                 border-radius: 10px;
                 img{
+                    width: 37vh;
+                    height: 30vh;
                     border-radius: 5px;
                 }
                 p{

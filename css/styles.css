@@ -1,4 +1,139 @@
-@media only screen and (max-width: 430px) {
+@media (max-width: 1069px) {
+  #MainPage #secondLineImages {
+    gap: 20px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 44vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 35vh;
+  }
+}
+@media (max-width: 969px) {
+  #MainPage #secondLineImages {
+    gap: 20px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 39vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 30vh;
+  }
+}
+@media (max-width: 869px) {
+  #MainPage #secondLineImages {
+    gap: 20px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 34vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 25vh;
+  }
+}
+@media (max-width: 769px) {
+  #MainPage #secondLineImages {
+    gap: 15px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 29vh;
+    height: 37vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 20vh;
+    height: 26vh;
+  }
+}
+@media (max-width: 669px) {
+  #MainPage #secondLineImages {
+    grid-template-columns: repeat(2, 40vh);
+    gap: 24px;
+    font-size: 20px;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 40vh;
+    height: 40vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 30vh;
+    height: 28vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 40vh;
+    height: 40vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 30vh;
+    height: 28vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 82.5vh;
+    height: 23vh;
+  }
+  #MainPage #secondLineImages #thirdImg img {
+    height: 18vh;
+    float: left;
+    margin-left: 6vh;
+  }
+  #MainPage #secondLineImages #thirdImg p {
+    padding-top: 7vh;
+  }
+}
+@media (max-width: 569px) {
+  #MainPage #secondLineImages {
+    margin-left: 7%;
+    gap: 0px;
+    row-gap: 23px;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 35vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 25vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 35vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 25vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 75.5vh;
+  }
+}
+@media (max-width: 469px) {
+  #MainPage #secondLineImages {
+    grid-template-columns: 40vh;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 30vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 30vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #thirdImg img {
+    width: 30vh;
+    height: 28vh;
+    float: none;
+    margin-left: 0;
+  }
+  #MainPage #secondLineImages #thirdImg p {
+    padding-top: 0;
+  }
+}
+@media (max-width: 430px) {
   #header {
     width: 200%;
   }
@@ -30,55 +165,39 @@
     margin-top: 40px;
   }
   #MainPage #secondLineImages {
-    margin-top: 20px;
-    width: 760px;
-    margin-right: 25px;
-    display: grid;
-    grid-template-rows: 358px 196px;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 40vh);
+    gap: 24px;
+    font-size: 20px;
   }
-  #MainPage #secondLineImages p {
-    font-size: 24px;
+  #MainPage #secondLineImages #FirstImg {
+    width: 40vh;
+    height: 40vh;
   }
-  #MainPage #secondLineImages div:nth-child(1) {
-    width: 380px;
-    height: 358px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
+  #MainPage #secondLineImages #FirstImg img {
+    width: 30vh;
+    height: 28vh;
   }
-  #MainPage #secondLineImages div:nth-child(1) p {
-    padding-top: 25px;
+  #MainPage #secondLineImages #SecondImg {
+    width: 40vh;
+    height: 40vh;
   }
-  #MainPage #secondLineImages div:nth-child(2) {
-    width: 380px;
-    height: 358px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
+  #MainPage #secondLineImages #SecondImg img {
+    width: 30vh;
+    height: 28vh;
   }
-  #MainPage #secondLineImages div:nth-child(2) p {
-    padding-top: 25px;
-  }
-  #MainPage #secondLineImages div:nth-child(3) {
-    width: 790px;
-    height: 190px;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  #MainPage #secondLineImages #thirdImg {
     grid-column-start: 1;
     grid-column-end: 3;
+    width: 82.5vh;
+    height: 23vh;
   }
-  #MainPage #secondLineImages div:nth-child(3) img {
-    height: 140px;
+  #MainPage #secondLineImages #thirdImg img {
+    height: 18vh;
     float: left;
-    margin-left: 60px;
+    margin-left: 6vh;
   }
-  #MainPage #secondLineImages div:nth-child(3) p {
-    padding-top: 58px;
+  #MainPage #secondLineImages #thirdImg p {
+    padding-top: 7vh;
   }
   #MainPage #DoYouWantToTaste {
     margin-top: 80px;
@@ -176,6 +295,8 @@
   height: 124px;
 }
 * #MainPage {
+  min-width: 320px;
+  width: 100%;
   background-color: #F7F7F7;
   display: flex;
   flex-direction: column;
@@ -186,8 +307,8 @@
   padding-bottom: 50px;
 }
 * #MainPage #firstLineImageCoffe {
-  width: 1168px;
-  height: 385px;
+  width: 150vh;
+  height: 53vh;
   background-color: #FAF3E0;
   border-radius: 20px;
   display: flex;
@@ -237,19 +358,21 @@
   margin-top: 70px;
 }
 * #MainPage #secondLineImages {
-  display: flex;
-  width: 1168px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
   margin-top: 50px;
-  justify-content: space-between;
 }
 * #MainPage #secondLineImages .secondLineImgs {
-  width: 359px;
-  height: 311px;
+  width: 47vh;
+  height: 42vh;
   align-content: center;
   text-align: center;
   border-radius: 10px;
 }
 * #MainPage #secondLineImages .secondLineImgs img {
+  width: 37vh;
+  height: 30vh;
   border-radius: 5px;
 }
 * #MainPage #secondLineImages .secondLineImgs p {
