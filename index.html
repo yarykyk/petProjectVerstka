@@ -15,18 +15,6 @@
 </head>
 <body>
     <header id="header">
-        <!-- <div id="topHeader">
-            <div id="topHeaderL">
-                <a href="#footer">Гарантія</a>
-                <a href="#footer">Доставка</a>
-                <a href="#footer">Контакти</a>
-            </div>
-            <div id="topHeaderR">
-                <a href="#"><i class="fa-solid fa-location-dot"></i>Київ</a>
-                <a href="#"><i class="fa-brands fa-telegram" id="telegram"></i></a>
-                <a href="#" ><i class="fa-brands fa-instagram" id="inst"></i></a>
-            </div>
-        </div> -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,23 +22,35 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="#">Гарантія</a>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-dark" aria-current="page" href="#footer">Гарантія</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Доставка</a>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-dark" href="#footer">Доставка</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Контакти</a>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-dark" href="#footer">Контакти</a>
                     </li>
-                    <li class="nav-item dropdown">
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown px-3">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
+                            Київ
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Львів</a></li>
+                            <li><a class="dropdown-item" href="#">Тернопіль</a></li>
+                            <li><a class="dropdown-item" href="#">Одеса</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pt-md-2 pt-sm-2" id="teleInst">
+                        <ul class='navbar-nav flex-row' id="teleInstUl">
+                            <li class="nav-item px-2 ps-lg-5 pe-lg-3 iconsHeder" id="telegram">
+                                <a href="#" ><i class="fa-brands fa-telegram text-dark fs-4" ></i></a>
+                            </li>
+                            <li class="nav-item px-2 iconsHeder">
+                                <a href="#"><i class="fa-brands fa-instagram text-dark fs-4" id="inst"></i></a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -112,7 +112,7 @@
                 <img src="/pictures/amerikano_croysan.jpg" alt="">
                 <h4>Американо з круасаном</h4>
                 <p id="SText">Для справжнії цінувачів кави. Хороший сніданок або перекус для обговорення останніх новин</p>
-                <hr>
+                <hr />
                 <div class="ThLinePriceCart">
                     <h3>90 грівінь</h3>
                     <div class="verticalLine"></div>
@@ -123,7 +123,7 @@
                 <img src="/pictures/Late_pichenka.jpg" alt="">
                 <h4>Лате з печивом</h4>
                 <p id="TText">Не дуже міцна так що можна випити і ввечері з друзями, хрумкаючи печивом</p>
-                <hr>
+                <hr />
                 <div class="ThLinePriceCart">
                     <h3>90 грівінь</h3>
                     <div class="verticalLine"></div>
@@ -134,7 +134,7 @@
                 <img src="/pictures/2amerikano_tirt.jpg" alt="">
                 <h4>2 американо з тортом</h4>
                 <p id="FoText">Чудови набір для себе та друга щоб відсвяткувати якесь свято</p>
-                <hr>
+                <hr />
                 <div class="ThLinePriceCart">
                     <h3>90 грівінь</h3>
                     <div class="verticalLine"></div>
@@ -145,7 +145,7 @@
         <button id="AllSets">Усі набори</button>
     </main>
     <footer id="footer">
-        <p>&copy;2025 <br /> Мій другий пет-проект по верстці сайту. Сайт кофейні YaroCookie</p>
+        <p id="footP">&copy;2025 <br /> Мій другий пет-проект по верстці сайту. Сайт кофейні YaroCookie</p>
         <ul>
             <li><h3>Інформація</h3></li>
             <li>Про компанію</li>
