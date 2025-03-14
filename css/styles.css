@@ -239,40 +239,8 @@
   display: flex;
   flex-direction: column;
 }
-* #header #topHeader {
+* #header .navbar {
   background-color: #F7EBE5;
-  width: 100%;
-  height: 48px;
-  display: flex;
-  padding: 13px 170px;
-  justify-content: space-between;
-}
-* #header #topHeader a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.7882352941);
-}
-* #header #topHeader #topHeaderL {
-  width: 465px;
-}
-* #header #topHeader #topHeaderL a {
-  margin-right: 20px;
-}
-* #header #topHeader #topHeaderR {
-  display: flex;
-  justify-content: flex-end;
-  width: 629px;
-}
-* #header #topHeader #topHeaderR a:nth-child(1) {
-  padding-right: 80px;
-}
-* #header #topHeader #topHeaderR a:nth-child(1) i {
-  padding-right: 7px;
-}
-* #header #topHeader #topHeaderR a {
-  margin-right: 30px;
-}
-* #header #topHeader #topHeaderR a #telegram, * #header #topHeader #topHeaderR a #inst {
-  font-size: 23px;
 }
 * #header #bottomHeader {
   display: flex;
