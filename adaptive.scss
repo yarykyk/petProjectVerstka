@@ -399,6 +399,34 @@
 }
 @media (max-width: 569px){
     #header{
+        .navbar{
+            height: 6.5vh;
+            .container-fluid{
+                background-color: #F7EBE5;
+                .navbar-toggler{
+                    padding: 0 7px 1px 7px;
+                }
+                .navbar-toggler-icon{
+                    align-self: center;
+                    font-size: 9px;
+                }
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    padding-top: 8px;
+                    #garantee{
+                        padding-top: 12px;
+                    }
+                    a{
+                        font-size: 16px;
+                        padding-top: 0;
+                    }
+                }
+                
+            }
+        }
         #bottomHeader{
             height: 18vh;
             .logoTXt{
@@ -501,6 +529,35 @@
     }
 }
 @media (max-width: 469px){
+    #header{
+        .navbar{
+            height: 5vh;
+            .container-fluid{
+                background-color: #F7EBE5;
+                .navbar-toggler{
+                    padding: 0 7px 1px 7px;
+                }
+                .navbar-toggler-icon{
+                    align-self: center;
+                    font-size: 9px;
+                }
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    #garantee{
+                        padding-top: 10px;
+                    }
+                    a{
+                        font-size: 15px;
+                        padding-top: 0;
+                    }
+                }
+                
+            }
+        }
+    }
     #MainPage{
         #h1mainpage{
             padding-top: 4vh;
@@ -730,8 +787,35 @@
 
 @media (max-width: 369px) {
     #header{
+        .navbar{
+            height: 5vh;
+            .container-fluid{
+                background-color: #F7EBE5;
+                .navbar-toggler{
+                    padding: 0 7px 1px 7px;
+                }
+                .navbar-toggler-icon{
+                    align-self: center;
+                    font-size: 9px;
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        #garantee{
+                            padding-top: 10px;
+                        }
+                        a{
+                            font-size: 12px;
+                            padding-top: 0;
+                        }
+                    }
+                    
+                }
+            }
+        }
         #bottomHeader{
-            height: 14  vh;
+            height: 14vh;
             .logoTXt{
                 font-size: 23px;
             }
@@ -788,33 +872,87 @@
             margin-top: 20px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             margin-right: 20px;
+            #FirstImg{
+                width: 34vh;
+                height: 37vh;
+                img{
+                    width: 24vh;
+                    height: 24vh;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 17px;
+                }
+            }
+            #SecondImg{
+                width: 34vh;
+                height: 37vh;
+                img{
+                    width: 24vh;
+                    height: 24vh;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 17px;
+                }
+            }
+            #thirdImg{
+                width: 34vh;
+                height: 37vh;
+                img{
+                    width: 24vh;
+                    height: 24vh;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 17px;
+                }
+            }
         }
         #ThirdLineCombos{
-            margin-left: 340px;
-            grid-template-columns: 10vh;
+            margin-left: 0;
+            grid-template-columns: 1fr;
             row-gap: 40px;
+            margin-top: 0px;
+            .offers:nth-child(1){
+                margin-top: 20px;
+            }
             .offers:nth-child(2){
-                display: none;
+                display: block;
+                img{
+                    width: 37vh;
+                }
             }
             .offers:nth-child(3){
-                display: none;
+                display: block;
+                img{
+                    width: 37vh;
+                }
             }
             .offers{
-                height: 69vh;
-                width: 42vh;
-                margin-bottom: 40px;
+                height: 65vh;
+                width: 37vh;
+                margin-bottom: 0;
+                margin-top: 0;
+                h4{
+                    font-size: 20px ;
+                }
+                p{
+                    font-size: 13px;
+                }
                 #FText{
-                    margin-bottom: 91px;
+                    margin-bottom: 11.8vh;
                 }
                 #SText{
-                    margin-bottom: 91px;
+                    margin-bottom: 8vh;
                 }
                 #TText{
-                    margin-bottom: 91px;
+                    margin-bottom: 11.8vh;
                 }
                 #FoText{
-                    margin-bottom: 114px;
+                    margin-bottom: 14.7vh;
                 }
                 .ThLinePriceCart{
                     h3{
@@ -829,7 +967,7 @@
             }   
         }
         #AllSets{
-            margin-top: 28vh;
+            margin-top: 7vh;
         }
     }
     #footer{
