@@ -10,39 +10,16 @@
         flex-direction: column;
         .navbar{
             background-color: #F7EBE5;
-            width: 100%;
-            height: 48px;
-            display: flex;
-            padding: 13px 170px; 
-            justify-content: space-between;
-            a{
-                text-decoration: none;
-                color: #000000C9;
-            }
-            #topHeaderL{
-                width: 465px;
-                a{
-                    margin-right: 20px;
-                }
-            }
-            #topHeaderR{
-                display: flex;
-                justify-content: flex-end;
-                width: 629px;
-                a:nth-child(1){
-                    padding-right: 80px;
-                    i{
-                        padding-right: 7px;
-                    }
-                }
-                a{
-                    margin-right: 30px;
-                    #telegram, #inst{
-                        font-size: 23px;
+            #navbarNavDropdown{
+                justify-content: space-around;
+                .navbar-nav{
+                    #teleInst{
+                        margin: auto 0;
                     }
                 }
             }
-        } 
+        }
+        
         #bottomHeader{
             display: flex;
             justify-content: center;

@@ -1,14 +1,129 @@
-@media only screen and (max-width: 430px) {
-  #header {
-    width: 200%;
+@media (max-width: 1069px) {
+  #MainPage #firstLineImageCoffe {
+    width: 130vh;
+    height: 45vh;
   }
-  #header #topHeader {
-    height: 59px;
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 60vh;
+    height: 38vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 55vh;
+    padding-left: 10vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 30px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 15px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 25vh;
+    height: 5.25vh;
+    font-size: 11.5px;
+  }
+  #MainPage #secondLineImages {
+    gap: 20px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 44vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 35vh;
+  }
+  #MainPage #ThirdLineCombos {
+    gap: 25px;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 67.5vh;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 48px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 969px) {
+  #MainPage #firstLineImageCoffe {
+    width: 130vh;
+    height: 50vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 55vh;
+    height: 40vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    padding-left: 2vh;
+  }
+  #MainPage #secondLineImages {
+    gap: 20px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 39vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 30vh;
+  }
+  #MainPage #DoYouWantToTaste {
+    font-size: 30px;
+    margin-top: 90px;
+  }
+  #MainPage #TasteOurCombo {
+    font-family: "Proxima Nova Condensed", sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #292929;
+    margin-bottom: -10px;
+  }
+  #MainPage #ThirdLineCombos {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 45px;
+         column-gap: 45px;
+    row-gap: 0px;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 60vh;
+    width: 50vh;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 48px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart {
+    justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 17px;
   }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 30px;
+  }
+  #footer {
+    height: 40vh;
+  }
+  #footer #footP {
+    width: 40vh;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+  #footer ul li {
+    padding: 5px 0;
+    font-size: 15px;
+  }
+  #footer ul li h3 {
+    font-size: 20px;
+  }
+  #footer ul li:nth-child(1) {
+    padding-bottom: 10px;
+  }
+  #footer div h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 869px) {
   #MainPage #h1mainpage {
     padding-top: 6vh;
     padding-bottom: 6vh;
@@ -19,7 +134,8 @@
     font-size: 28px;
   }
   #MainPage #firstLineImageCoffe {
-    width: 800px;
+    width: 113vh;
+    height: 48vh;
   }
   #MainPage #firstLineImageCoffe .coffedefenition img {
     width: 50vh;
