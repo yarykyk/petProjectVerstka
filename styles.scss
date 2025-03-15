@@ -8,13 +8,13 @@
     #header{
         display: flex;
         flex-direction: column;
-        #topHeader{
+        .navbar{
             background-color: #F7EBE5;
             width: 100%;
             height: 48px;
             display: flex;
-            padding: 13px 0px; 
-            justify-content: space-evenly;
+            padding: 13px 170px; 
+            justify-content: space-between;
             a{
                 text-decoration: none;
                 color: #000000C9;
@@ -46,7 +46,7 @@
         #bottomHeader{
             display: flex;
             justify-content: center;
-            height: 160px;
+            height: 23vh;
             width: 100%;
             .logoTXt{
                 font-size: 40px;
@@ -59,15 +59,16 @@
             #mainLogo{
                 align-self: center;
                 border-radius: 50%;
-                width: 124px;
-                height: 124px;
+                width: 17vh;
+                height: 17vh;
             }
         }  
     }
     #MainPage{
+        min-width: 320px;
+        width: 100%;
         background-color: #F7F7F7;
         display: flex;
-        // height: 1823px;
         flex-direction: column;
         align-items: center;
         #h1mainpage{
@@ -75,8 +76,8 @@
             padding-bottom: 50px;
         }
         #firstLineImageCoffe{
-            width: 1168px;
-            height: 385px;
+            width: 150vh;
+            height: 53vh;
             background-color:#FAF3E0;
             border-radius: 20px;
             display: flex;
@@ -86,11 +87,11 @@
                 display: flex;
                 img{
                     border-radius: 10px;
-                    width: 550px;
-                    height: 345px;
+                    width: 70vh;
+                    height: 45vh;
                 }
                 #textfirstImageCoffe{
-                    width: 470px;
+                    width: 63vh;
                     text-align: center;
                     padding-left: 50px;
                     display: flex;
@@ -105,8 +106,8 @@
                         color: #292929;
                     }
                     button{
-                        width: 230px;
-                        height: 50px;
+                        width: 30vh;
+                        height: 6.5vh;
                         align-self: center;
                         border: 1px solid #4E9DD3;
                         font-weight: 600; 
@@ -124,19 +125,22 @@
         }
         #OurtopDrinks{
             margin-top: 70px;
+            font-weight: 600;
         }
         #secondLineImages{
-            display: flex;
-            width: 1168px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
             margin-top: 50px;
-            justify-content: space-between;
             .secondLineImgs{
-                width: 359px;
-                height: 311px;
+                width: 47vh;
+                height: 42vh;
                 align-content: center;
                 text-align: center;
                 border-radius: 10px;
                 img{
+                    width: 37vh;
+                    height: 30vh;
                     border-radius: 5px;
                 }
                 p{
@@ -157,6 +161,7 @@
         #DoYouWantToTaste{
             font-size: 30px;
             margin-top: 110px;
+            font-weight: 600;
         }
         #TasteOurCombo{
             font-family: 'Proxima Nova Condensed', sans-serif;
@@ -165,20 +170,20 @@
             color: #292929;
         }
         #ThirdLineCombos{
-            display: flex;
-            width: 1168px;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 35px;
             .offers{
                 margin-top: 50px;
-                width: 271px;
-                height: 413px;
+                width: 35.5vh;
+                height: 61vh;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
                 background-color: #fff;
                 img{
-                    width: 271px;
-                    height: 220px;
+                    width: 35,5vh;
+                    height: 28.6vh;
                     border-radius: 5px;
                 }
                 h4{
@@ -194,26 +199,31 @@
                     margin-bottom: 24px;
                 }
                 #SText{
-                    margin-bottom: 3px;
-                }
-                #TText{
                     margin-bottom: 24px;
                 }
+                #TText{
+                    margin-bottom: 53px;
+                }
                 #FoText{
-                    margin-bottom: 46px;
+                    margin-bottom: 48px;
+                }
+                hr{
+                    margin: 0;
                 }
                 .ThLinePriceCart{
                     display: flex;
-                    height: 49px;
+                    height: 6.5vh;
                     h3{
-                        width: 136px;
+                        width: 18vh;
                         align-self: center;
+                        padding-top: 10px;
                         padding-left: 20px;
                         color: #E7426A;
+                        font-size: 20px;
                     }
                     button{
-                        width: 130px;
-                        height: 49px;
+                        width: 18vh;
+                        height: 6.5vh;
                         align-self: flex-end;
                         justify-self: center;
                         border: none;
@@ -223,7 +233,7 @@
                     }
                     .verticalLine{
                         width: 1px;
-                        height: 49px;
+                        height: 7.1vh;
                         background-color: gray;
                     }
                 }

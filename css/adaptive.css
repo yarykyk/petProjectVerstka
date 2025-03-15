@@ -1,14 +1,3 @@
-@media only screen and (max-width: 930px) {
-  #header {
-    width: 125%;
-  }
-  #MainPage {
-    width: 125%;
-  }
-  #footer {
-    width: 125%;
-  }
-}
 @media only screen and (max-width: 430px) {
   #header {
     width: 200%;
@@ -20,101 +9,701 @@
     padding-right: 50px;
     font-size: 17px;
   }
-  #MainPage {
-    width: 200%;
-  }
   #MainPage #h1mainpage {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    font-size: 28px;
+  }
+  #MainPage #OurtopDrinks {
+    margin-top: 50px;
     font-size: 28px;
   }
   #MainPage #firstLineImageCoffe {
-    max-width: 800px;
+    width: 800px;
   }
   #MainPage #firstLineImageCoffe .coffedefenition img {
-    border-radius: 10px;
-    width: 360px;
-    height: 300px;
+    width: 50vh;
+    height: 40vh;
   }
   #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
-    width: 400px;
+    width: 50vh;
+    padding-left: 5vh;
   }
-  #MainPage #OurtopDrinks {
-    margin-top: 40px;
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 25px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 16px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 28vh;
+    height: 6vh;
+    font-size: 16px;
   }
   #MainPage #secondLineImages {
-    margin-top: 20px;
-    width: 760px;
-    margin-right: 25px;
-    display: grid;
-    grid-template-rows: 358px 196px;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    gap: 20px;
+    margin-top: 30px;
   }
-  #MainPage #secondLineImages p {
-    font-size: 24px;
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 34vh;
   }
-  #MainPage #secondLineImages div:nth-child(1) {
-    width: 380px;
-    height: 358px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 25vh;
   }
-  #MainPage #secondLineImages div:nth-child(1) p {
-    padding-top: 25px;
+}
+@media (max-width: 769px) {
+  #header #bottomHeader {
+    height: 21vh;
   }
-  #MainPage #secondLineImages div:nth-child(2) {
-    width: 380px;
-    height: 358px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
+  #header #bottomHeader .logoTXt {
+    font-size: 35px;
   }
-  #MainPage #secondLineImages div:nth-child(2) p {
-    padding-top: 25px;
+  #header #bottomHeader #mainLogo {
+    width: 16vh;
+    height: 16vh;
   }
-  #MainPage #secondLineImages div:nth-child(3) {
-    width: 790px;
-    height: 190px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
+  #MainPage #h1mainpage {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 25px;
   }
-  #MainPage #secondLineImages div:nth-child(3) img {
-    height: 140px;
-    float: left;
-    margin-left: 60px;
+  #MainPage #OurtopDrinks {
+    margin-top: 50px;
+    font-size: 25px;
   }
-  #MainPage #secondLineImages div:nth-child(3) p {
-    padding-top: 58px;
+  #MainPage #firstLineImageCoffe {
+    width: 97vh;
+    height: 45vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 43vh;
+    height: 35vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 45vh;
+    padding-left: 5vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 23px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 14px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 24vh;
+    height: 5vh;
+    font-size: 14px;
+  }
+  #MainPage #secondLineImages {
+    gap: 15px;
+  }
+  #MainPage #secondLineImages .secondLineImgs {
+    width: 29vh;
+    height: 37vh;
+  }
+  #MainPage #secondLineImages .secondLineImgs img {
+    width: 20vh;
+    height: 24vh;
   }
   #MainPage #DoYouWantToTaste {
-    margin-top: 80px;
+    font-size: 25px;
+  }
+  #MainPage #TasteOurCombo {
+    font-family: "Proxima Nova Condensed", sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #292929;
   }
   #MainPage #ThirdLineCombos {
-    width: 625px;
-    display: grid;
-    grid-template-rows: 465px 380px;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 0px;
   }
-  #MainPage #AllSets {
-    margin-top: 140px;
-    font-size: 18px;
+  #MainPage #ThirdLineCombos .offers {
+    height: 63.5vh;
+    width: 42vh;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 52px;
+  }
+  #MainPage #ThirdLineCombos .offers #FoText {
+    margin-bottom: 77px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart {
+    justify-content: center;
+    align-items: center;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 0;
+    padding-left: 8px;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 20px;
   }
   #footer {
-    width: 200%;
+    height: 35vh;
   }
-  #footer p {
-    width: 200px;
+  #footer #footP {
+    width: 40vh;
+    margin-left: 30px;
+    font-size: 13px;
+  }
+  #footer ul {
+    padding-right: 0;
   }
   #footer ul li {
-    font-size: 16px;
-    padding: 5px 0;
+    padding: 3px 0;
+    font-size: 14px;
+  }
+  #footer ul li h3 {
+    font-size: 20px;
+  }
+  #footer ul li:nth-child(1) {
+    padding-bottom: 10px;
   }
   #footer div h3 {
     font-size: 20px;
+  }
+}
+@media (max-width: 669px) {
+  #MainPage #firstLineImageCoffe {
+    width: 85vh;
+    height: 37vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 34vh;
+    height: 28vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 42vh;
+    padding-left: 4vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 20px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 12px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 22vh;
+    height: 4.5vh;
+    font-size: 13px;
+  }
+  #MainPage #secondLineImages {
+    grid-template-columns: repeat(2, 40vh);
+    gap: 24px;
+    font-size: 20px;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 40vh;
+    height: 40vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 30vh;
+    height: 28vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 40vh;
+    height: 40vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 30vh;
+    height: 28vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 82.5vh;
+    height: 23vh;
+  }
+  #MainPage #secondLineImages #thirdImg img {
+    height: 18vh;
+    float: left;
+    margin-left: 6vh;
+  }
+  #MainPage #secondLineImages #thirdImg p {
+    padding-top: 7vh;
+  }
+  #MainPage #ThirdLineCombos {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    row-gap: 0px;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 65.5vh;
+    width: 37vh;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 40px;
+  }
+  #MainPage #ThirdLineCombos .offers #TText {
+    margin-bottom: 65px;
+  }
+  #MainPage #ThirdLineCombos .offers #FoText {
+    margin-bottom: 39px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 0;
+    padding-left: 17px;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 569px) {
+  #header .navbar {
+    height: 6.5vh;
+  }
+  #header .navbar .container-fluid {
+    background-color: #F7EBE5;
+  }
+  #header .navbar .container-fluid .navbar-toggler {
+    padding: 0 7px 1px 7px;
+  }
+  #header .navbar .container-fluid .navbar-toggler-icon {
+    align-self: center;
+    font-size: 9px;
+  }
+  #header .navbar-collapse .navbar-nav .nav-item {
+    padding-top: 8px;
+  }
+  #header .navbar-collapse .navbar-nav .nav-item #garantee {
+    padding-top: 12px;
+  }
+  #header .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 16px;
+    padding-top: 0;
+  }
+  #header #bottomHeader {
+    height: 18vh;
+  }
+  #header #bottomHeader .logoTXt {
+    font-size: 30px;
+    padding: 0 17px;
+  }
+  #header #bottomHeader #mainLogo {
+    width: 13.5vh;
+    height: 13.5vh;
+  }
+  #MainPage #firstLineImageCoffe {
+    width: 68vh;
+    height: 30vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 26vh;
+    height: 23vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 33vh;
+    padding-left: 3vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 20px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 11px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 18vh;
+    height: 4vh;
+    font-size: 11px;
+  }
+  #MainPage #secondLineImages {
+    margin-left: 7%;
+    gap: 0px;
+    row-gap: 23px;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 35vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 25vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 35vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 25vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 75.5vh;
+  }
+  #MainPage #DoYouWantToTaste {
+    font-size: 23px;
+    margin-top: 110px;
+  }
+  #MainPage #TasteOurCombo {
+    font-family: "Proxima Nova Condensed", sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #292929;
+  }
+  #MainPage #ThirdLineCombos {
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 69vh;
+    width: 34vh;
+    margin-bottom: -10px;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 40px;
+  }
+  #MainPage #ThirdLineCombos .offers #SText {
+    margin-bottom: 16px;
+  }
+  #MainPage #ThirdLineCombos .offers #TText {
+    margin-bottom: 65px;
+  }
+  #MainPage #ThirdLineCombos .offers #FoText {
+    margin-bottom: 64px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 0;
+    padding-left: 17px;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 469px) {
+  #header .navbar {
+    height: 5vh;
+  }
+  #header .navbar .container-fluid {
+    background-color: #F7EBE5;
+  }
+  #header .navbar .container-fluid .navbar-toggler {
+    padding: 0 7px 1px 7px;
+  }
+  #header .navbar .container-fluid .navbar-toggler-icon {
+    align-self: center;
+    font-size: 9px;
+  }
+  #header .navbar-collapse .navbar-nav .nav-item #garantee {
+    padding-top: 10px;
+  }
+  #header .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 15px;
+    padding-top: 0;
+  }
+  #MainPage #h1mainpage {
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    font-size: 22px;
+  }
+  #MainPage #OurtopDrinks {
+    margin-top: 40px;
+    font-size: 22px;
+  }
+  #MainPage #firstLineImageCoffe {
+    width: 62vh;
+    height: 30vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 25vh;
+    height: 24vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 30vh;
+    padding-left: 4vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 18px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 9px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 14vh;
+    height: 3vh;
+    font-size: 10px;
+  }
+  #MainPage #secondLineImages {
+    margin-top: 20px;
+    grid-template-columns: 40vh;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 30vh;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 30vh;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 40vh;
+    height: 45vh;
+  }
+  #MainPage #secondLineImages #thirdImg img {
+    width: 30vh;
+    height: 28vh;
+    float: none;
+    margin-left: 0;
+  }
+  #MainPage #secondLineImages #thirdImg p {
+    padding-top: 0;
+  }
+  #MainPage #ThirdLineCombos {
+    grid-template-columns: 1fr;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 69vh;
+    width: 42vh;
+    margin-bottom: -10px;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 91px;
+  }
+  #MainPage #ThirdLineCombos .offers #SText {
+    margin-bottom: 91px;
+  }
+  #MainPage #ThirdLineCombos .offers #TText {
+    margin-bottom: 91px;
+  }
+  #MainPage #ThirdLineCombos .offers #FoText {
+    margin-bottom: 114px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 0;
+    padding-left: 17px;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 0px;
+  }
+  #footer {
+    height: 28vh;
+  }
+  #footer #footP {
+    width: 40vh;
+    margin-left: 30px;
+    font-size: 10px;
+  }
+  #footer ul li {
+    padding: 2px 0;
+    font-size: 12px;
+  }
+  #footer ul li h3 {
+    font-size: 17px;
+  }
+  #footer ul li:nth-child(1) {
+    padding-bottom: 7px;
+  }
+  #footer div {
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+  #footer div h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 369px) {
+  #header .navbar {
+    height: 5vh;
+  }
+  #header .navbar .container-fluid {
+    background-color: #F7EBE5;
+  }
+  #header .navbar .container-fluid .navbar-toggler {
+    padding: 0 7px 1px 7px;
+  }
+  #header .navbar .container-fluid .navbar-toggler-icon {
+    align-self: center;
+    font-size: 9px;
+  }
+  #header .navbar .navbar-collapse .navbar-nav .nav-item #garantee {
+    padding-top: 10px;
+  }
+  #header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 12px;
+    padding-top: 0;
+  }
+  #header #bottomHeader {
+    height: 14vh;
+  }
+  #header #bottomHeader .logoTXt {
+    font-size: 23px;
+  }
+  #header #bottomHeader #mainLogo {
+    width: 11vh;
+    height: 11vh;
+  }
+  #MainPage #h1mainpage {
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    font-size: 18px;
+  }
+  #MainPage #OurtopDrinks {
+    margin-top: 40px;
+    font-size: 22px;
+  }
+  #MainPage #DoYouWantToTaste {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  #MainPage #TasteOurCombo {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  #MainPage #firstLineImageCoffe {
+    width: 48.5vh;
+    height: 25vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition img {
+    width: 20vh;
+    height: 19vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe {
+    width: 25vh;
+    padding-left: 4vh;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe h2 {
+    font-size: 15px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe p {
+    font-size: 8px;
+  }
+  #MainPage #firstLineImageCoffe .coffedefenition #textfirstImageCoffe button {
+    width: 13vh;
+    height: 3vh;
+    font-size: 10px;
+  }
+  #MainPage #secondLineImages {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  #MainPage #secondLineImages #FirstImg {
+    width: 34vh;
+    height: 37vh;
+  }
+  #MainPage #secondLineImages #FirstImg img {
+    width: 24vh;
+    height: 24vh;
+  }
+  #MainPage #secondLineImages #FirstImg p {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  #MainPage #secondLineImages #SecondImg {
+    width: 34vh;
+    height: 37vh;
+  }
+  #MainPage #secondLineImages #SecondImg img {
+    width: 24vh;
+    height: 24vh;
+  }
+  #MainPage #secondLineImages #SecondImg p {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  #MainPage #secondLineImages #thirdImg {
+    width: 34vh;
+    height: 37vh;
+  }
+  #MainPage #secondLineImages #thirdImg img {
+    width: 24vh;
+    height: 24vh;
+  }
+  #MainPage #secondLineImages #thirdImg p {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  #MainPage #ThirdLineCombos {
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin-top: 0px;
+  }
+  #MainPage #ThirdLineCombos .offers:nth-child(1) {
+    margin-top: 20px;
+  }
+  #MainPage #ThirdLineCombos .offers:nth-child(2) {
+    display: block;
+  }
+  #MainPage #ThirdLineCombos .offers:nth-child(2) img {
+    width: 37vh;
+  }
+  #MainPage #ThirdLineCombos .offers:nth-child(3) {
+    display: block;
+  }
+  #MainPage #ThirdLineCombos .offers:nth-child(3) img {
+    width: 37vh;
+  }
+  #MainPage #ThirdLineCombos .offers {
+    height: 65vh;
+    width: 37vh;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  #MainPage #ThirdLineCombos .offers h4 {
+    font-size: 20px;
+  }
+  #MainPage #ThirdLineCombos .offers p {
+    font-size: 13px;
+  }
+  #MainPage #ThirdLineCombos .offers #FText {
+    margin-bottom: 11.8vh;
+  }
+  #MainPage #ThirdLineCombos .offers #SText {
+    margin-bottom: 8vh;
+  }
+  #MainPage #ThirdLineCombos .offers #TText {
+    margin-bottom: 11.8vh;
+  }
+  #MainPage #ThirdLineCombos .offers #FoText {
+    margin-bottom: 14.7vh;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart h3 {
+    padding-right: 0;
+    padding-left: 17px;
+    font-size: 19px;
+  }
+  #MainPage #ThirdLineCombos .offers .ThLinePriceCart button {
+    padding-left: 0px;
+  }
+  #MainPage #AllSets {
+    margin-top: 7vh;
+  }
+  #footer {
+    height: 28vh;
+  }
+  #footer #footP {
+    display: none;
+  }
+  #footer ul li {
+    padding: 2px 0;
+    font-size: 12px;
+  }
+  #footer ul li h3 {
+    font-size: 17px;
+  }
+  #footer ul li:nth-child(1) {
+    padding-bottom: 7px;
+  }
+  #footer div {
+    width: 20vh;
+    margin: auto 0;
+  }
+  #footer div p {
+    display: none;
+  }
+  #footer div h3 {
+    margin-right: 20px;
+    font-size: 15px;
   }
 }
